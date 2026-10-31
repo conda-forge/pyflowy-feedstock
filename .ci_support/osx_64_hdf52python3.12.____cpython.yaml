@@ -1,11 +1,9 @@
-MACOSX_DEPLOYMENT_TARGET:
-- '11.0'
 MACOSX_SDK_VERSION:
 - '11.0'
 c_compiler:
 - clang
 c_compiler_version:
-- '19'
+- '21'
 c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
@@ -17,11 +15,11 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '19'
+- '21'
 fmt:
 - '12.1'
 hdf5:
-- 1.14.6
+- '2'
 libcblas:
 - 3.9.* *netlib
 libnetcdf:
@@ -35,7 +33,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.10.* *_cpython
+- 3.12.* *_cpython
 target_platform:
 - osx-64
 zip_keys:
